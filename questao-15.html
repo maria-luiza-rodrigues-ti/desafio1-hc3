@@ -1,0 +1,18 @@
+<body>
+  <div id="caixa">
+    <p id="p1">Primeiro Parágrafo.</p>
+    <p id="p2">Segundo Parágrafo.</p>
+  </div>
+  <script>
+    var para = document.createElement("p");
+    var node = document.createTextNode("Terceiro Parágrafo.");
+    var element = document.getElementById("caixa");
+    // element.append(para.append(node));
+    // element.addNode(para.addContent(node));
+    // document.getElementById("caixa").add(para);
+    // element.innerHTML(para.add(node));
+    element.appendChild(para.appendChild(node));
+  </script>
+
+  <!-- resposta: alternativa E-->
+</body>
